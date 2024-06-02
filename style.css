@@ -1001,7 +1001,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .newsletter-subscribe {
     padding: 150px 0;
-    background: url("images/newsletter-bg.jpg") no-repeat;
+    background: url("images/newsletter-bg.png") no-repeat;
     background-size: cover;
     text-align: center;
 }
@@ -1009,29 +1009,31 @@ a:hover, a:active {
 .newsletter-subscribe .entry-title {
     font-size: 36px;
     font-weight: bold;
-    color: #fff;
+    color: #3d3737;
 }
 
 .newsletter-subscribe header p {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #fff;
+    color: #3d3737;
 }
 .newsletter-subscribe form input[type="text"],
 .newsletter-subscribe form input[type="email"] {
     width: 100%;
-    color: #232127;
+    color: #ffffff;
     padding: 15px 24px;
-    border: 0;
+    border: 10;
     border-radius: 6px;
     font-size: 14px;
     outline: none;
+    background-color : #231e23;
 }
 
 .newsletter-subscribe form input[type="text"]::placeholder,
 .newsletter-subscribe form input[type="email"]::placeholder {
     font-style: italic;
+    color: #ffffff;
 }
 
 
