@@ -531,6 +531,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Homepage - Featured Events
 --------------------------------------------------------------*/
+
 .homepage-featured-events {
     height: auto;
     padding: 110px 0 150px;
@@ -996,6 +997,37 @@ a:hover, a:active {
     text-align: center;
 }
 
+/*--------------------------------------------------------------
+# Instagram feed    
+--------------------------------------------------------------*/
+.instafeed-section .entry-title {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    color: #232127;
+    text-align: center;
+}
+.instafeed-section {
+    height: auto;
+    padding: 110px 0 150px;
+    background: url("images/instabg.png") no-repeat center;
+    background-size: cover !important;
+}
+.instagram-post {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    
+}
+.instagram-post iframe {
+    width: 100%; /* Ensure iframe fills the container */
+    height: 100%; /* Ensure iframe fills the container */
+}
 /*--------------------------------------------------------------
 # Newsletter
 --------------------------------------------------------------*/
