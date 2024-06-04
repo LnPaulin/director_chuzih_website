@@ -95,12 +95,12 @@ a:hover, a:active {
 .btn.gradient-bg {
     padding: 18px 46px;
     border: 0;
-    background: -moz-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(88,20,121,1)), color-stop(100%, rgba(171,0,229,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ie10+ */
-    background: linear-gradient(270deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* w3c */
+    background: -moz-linear-gradient(180deg, rgba(69, 2, 226,1) 0%, rgba(35, 20, 121,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(35, 20, 121,1)), color-stop(100%, rgba(69, 2, 226,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgba(69, 2, 226,1) 0%, rgba(35, 20, 121,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgba(69, 2, 226,1) 0%, rgba(35, 20, 121,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgba(69, 2, 226,1) 0%, rgba(35, 20, 121,1) 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgb(69, 2, 226,1) 0%, rgb(35, 20, 121,1) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581479', endColorstr='#ab00e5',GradientType=1 ); /* ie6-9 */
     color: #fff;
 }
@@ -291,7 +291,7 @@ a:hover, a:active {
     }
 
     .site-navigation ul li a {
-        color: #fff;
+        color:  #ffe61c;
     }
 }
 
@@ -356,7 +356,7 @@ a:hover, a:active {
     margin-top: -21px;
     border: 2px solid #fff;
     border-radius: 50%;
-    background: #9a28d7;
+    background: #1C35FF;
     transition: all .35s;
 }
 
@@ -517,16 +517,142 @@ a:hover, a:active {
     margin-top: 32px;
 }
 
-.homepage-info-section .entry-content p {
+.homepage-info-section .entry-content p, .homepage-info-section .entry-content h3, .homepage-info-section .entry-content ol {
     font-size: 18px;
     line-height: 1.7;
     color: #777777;
+}
+
+.homepage-info-section .entry-content ol span{
+    font-weight: 600;
 }
 
 .homepage-info-section .entry-footer a {
     margin-top: 32px;
     margin-right: 18px;
 }
+
+
+/*--------------------------------------------------------------
+# Homepage - Featured Events
+--------------------------------------------------------------*/
+.homepage-gallery {
+    height: auto;
+    padding: 110px 0 150px;
+    background: url("images/featured-events-bg2.png") no-repeat center;
+    background-size: cover !important;
+    margin-bottom: 20px;
+}
+
+.homepage-gallery .gallery {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffe61c;
+    margin-top: -100px;
+}
+
+.description{
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.featured-gallery-wrap .event-content-wrap{
+    position: relative;
+    padding: 36px 18px;
+    border-radius: 5px;;
+}
+
+.featured-gallery-wrap .event-content-wrap figure{
+    margin: -10px -10px;
+    padding: 0;
+}
+
+.homepage-gallery .positioning-event-1 {
+    width: 270px;
+}
+
+.positioning-event-1 img{
+    width: 100%;
+    border-radius: 5px;;
+}
+
+.homepage-gallery .positioning-event-2 {
+    width: 270px;
+}
+
+.positioning-event-2 img{
+    width: 100%; 
+    border-radius: 5px;    
+}
+
+.homepage-gallery .positioning-event-3 {
+    width: 270px;
+}
+
+.positioning-event-3 img{
+    width: 100%;
+    border-radius: 5px;  
+}
+
+.homepage-gallery .positioning-event-4 {
+    width: 270px;
+}
+
+.positioning-event-4 img{
+    width: 100%;  
+    border-radius: 5px;   
+}
+
+.homepage-gallery .positioning-event-5 {
+    width: 270px;
+}
+
+.positioning-event-5 img{
+    width: 100%; 
+    border-radius: 5px;    
+}
+
+.homepage-gallery .positioning-event-6 {
+    width: 270px;
+}
+
+.positioning-event-6 img{
+    width: 100%; 
+    border-radius: 5px;    
+}
+
+.homepage-gallery .positioning-event-7 {
+    width: 270px;
+}
+
+.positioning-event-7 img{
+    width: 100%;  
+    border-radius: 5px;   
+}
+
+.homepage-gallery .positioning-event-8 {
+    width: 270px;
+}
+
+.positioning-event-8 img{
+    width: 100%;  
+    border-radius: 5px;   
+}
+
+.homepage-gallery .positioning-event-9 {
+    width: 270px;
+}
+
+.positioning-event-9 img{
+    width: 100%;   
+    border-radius: 5px;  
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Homepage - Featured Events
@@ -2157,7 +2283,7 @@ ul.tabs-nav .tab-nav.active {
     margin-top: -21px;
     border: 2px solid #fff;
     border-radius: 50%;
-    background: #9a28d7;
+    background: #1C35FF;
     transition: all .35s;
     cursor: pointer;
 
