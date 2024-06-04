@@ -129,6 +129,7 @@ a:hover, a:active {
     z-index: 99;
     width: 100%;
     padding: 14px 0;
+    background-color: hsla(0, 0%, 100%, 0.301);
 }
 
 /*
@@ -219,7 +220,7 @@ a:hover, a:active {
     height: 22px;
     overflow: hidden;
     list-style: none;
-    transition: all .35s;
+    transition: all .35s;    
 }
 
 .site-navigation.show {
@@ -252,6 +253,7 @@ a:hover, a:active {
     font-weight: bold;
     letter-spacing: 0.02rem;
     text-transform: uppercase;
+    
 }
 
 .site-navigation ul li a {
